@@ -41,10 +41,7 @@ static void		print_string(const char *str, int size, t_tlist *t)
 		len = size;
 	while (i < len)
 	{
-		if (t->comma_zero || (t->comma <= i && t->comma))
-			write(1, " ", 1);
-		else
-			write(1, &str[i], 1);
+		write(1, &str[i], 1);
 		i++;
 	}
 }
