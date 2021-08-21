@@ -1,6 +1,8 @@
 # ft_printf
 
-This is a subject from 42. 
+This is a subject from 42.
+
+The code is evaluated at 100.
 
 Introduction
 The versatility of the printf function in C represents a great exercise in programming for
